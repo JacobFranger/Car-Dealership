@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
+    private static Object Cars;
+
     public static void main(String[] args) {
 
 
