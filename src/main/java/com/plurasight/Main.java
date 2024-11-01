@@ -1,5 +1,7 @@
 package com.plurasight;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -92,5 +94,24 @@ public class Main {
                 input.nextLine();
                 e.printStackTrace();
             }
+
     }
+
+
+    System.out.println("Please enter sales information: ");
+         System.out.println("Please enter vehicle information: ");
+         System.out.println("Sale or Lease: ");
+
+
+        try {
+            FileReader carInventory = new FileReader("src/main/resources/contracts.csv");
+            BufferedReader bufferedReader = new BufferedReader(carInventory);
+            String input;
+            bufferedReader.readLine();
+        }
+
+
+
 }
+
+
